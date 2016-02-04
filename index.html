@@ -15,6 +15,7 @@
     <link rel="import" href="observer-element.html" />
     <link rel="import" href="listener-element.html" />
     <link rel="import" href="my-range.html" />
+    <link rel="import" href="cart-list.html" />
 </head>
 <body>
     <hello-world id="h" name="Joe"></hello-world>
@@ -28,6 +29,7 @@
     <observer-element></observer-element>
     <listener-element></listener-element>
     <my-range value="10"></my-range>
+    <cart-list></cart-list>
     <script>
         document.querySelector('my-range').addEventListener('valueChanged', function(e){
             console.log(e.detail.increased);
